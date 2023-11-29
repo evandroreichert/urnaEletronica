@@ -2,7 +2,7 @@
 
 Estou movendo o diretório, todos os commits estão [aqui](https://github.com/evandroreichert/exerciciosNode/tree/7957837285c6f00be345f2ae85b0c11a0c2ef445)
 
-<video src="preview.mp4" controls title="Urna Eletrônica"></video>
+![Preview](preview.gif)
 
 ## Funcionalidades
 
