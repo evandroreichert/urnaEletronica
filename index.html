@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <h1>Urna Eletrônica</h1>
+
+            <div class="container">
+                <div class="candidato">
+                    <img src="img/politico.png" class="imgCandidato" alt="imagem do candidato">
+                    <p class="nomeCandidato">Ivan Borchardt</p>
+                    <span class="info">?</span>
+                    <div id="modalCandidatos">
+                        <div class="modal-content">
+                            <h4 class="modal-info">Candidatos disponíveis: </h4>
+                            <p class="modal-info"><b>11 | 22 | 33 | 44 | 55</b></p>
+                            <span class="close" onclick="fecharModal('modalCandidatos')">FECHAR</span>
+                        </div>
+                    </div>
+                    <input type="number" id="iNumeroCandidato" name="numeroCandidato" min="0"
+                        max="99" minlength="2" maxlength="2" placeholder="Número do Candidato" value="" required>
+                        
+                        
+                </div>
+
+                <div class="actionsUrna">
+                    <button type="button" class="confirma">Confirma</button>
+                    <button type="button" class="corrige">Corrige</button>
+                    <button type="button" value="branco" class="branco">Branco</button>
+                </div>
+
+                <div id="modalSucesso" class="modal">
+                    <div class="modal-content">
+                        <p>Voto Registrado com Sucesso!</p>
+                    </div>
+                </div>
+
+                <div id="modalErro" class="modal">
+                    <div class="modal-content">
+                        <p class="modal-info">Erro ao registrar voto. Contate o administrador do sistema.</p>
+                        <span class="close" onclick="fecharModal('modalErro')">FECHAR</span>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
