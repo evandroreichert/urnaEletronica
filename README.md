@@ -4,6 +4,8 @@ Estou movendo o diretório, todos os commits estão [aqui](https://github.com/ev
 
 ![Preview](preview.gif)
 
+Vídeo com som [aqui](https://www.youtube.com/watch?v=Hsa6CvHgQMM)
+
 ## Funcionalidades
 
 ### 00. Protótipo da tela principal
