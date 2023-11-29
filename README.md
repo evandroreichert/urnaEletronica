@@ -12,7 +12,7 @@ Vídeo com som [aqui](https://www.youtube.com/watch?v=Hsa6CvHgQMM)
 
 - Campo para digitação do número eleitoral.
 - Apresentação do nome e foto do candidato.
-- Botões "Confirmar", "Cancelar", "Branco".
+- Botões "Confirmar", "Corrige", "Branco".
 
 ### 01. Carga inicial de candidatos e configurações
 
