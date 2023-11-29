@@ -26,6 +26,8 @@ Estou movendo o diretório, todos os commits estão [aqui](https://github.com/ev
 - Resposta em JSON para sucesso ou erro.
 - Função no frontend para requisições ao endpoint.
 - Exibição de mensagens na tela.
+- Som idêntico ao da urna original ao confirmar o voto.
+- Som de erro ao ocorrer falha no registro do voto.
 
 ### 03. Apuração dos votos
 
