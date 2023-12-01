@@ -83,7 +83,7 @@ app.get('/apuracao', async (req, res) => {
             }
         }
 
-        // carregua as informações dos candidatos
+        // carrega as informações dos candidatos
         const candidatosCsv = await fs.readFile('config.csv', 'utf-8');
         const candidatosArray = candidatosCsv.split(',');
 
